@@ -15,6 +15,8 @@ reg comp_score_5to6 head_start, r
 
 *Question 3
 
-xtreg comp_score_5to6 head_start,i(mom_id) fe
+xtreg comp_score_5to6 head_start,i(mom_id)
 
 *Question 4
+
+xtreg comp_score_5to6 head_start,i(mom_id) fe
