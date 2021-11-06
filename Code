@@ -8,9 +8,6 @@ summarize if head_start==1 & head_start<.
 
 *Question 2
 
-clear all 
-use "https://github.com/tvogl/econ121/raw/main/data/nlsy_deming.dta"
-
 reg comp_score_5to6 head_start, r 
 
 *Question 3
