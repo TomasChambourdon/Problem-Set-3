@@ -34,6 +34,7 @@ xtreg comp_score_11to14stand head_start,i(mom_id) fe
 xtreg hsgrad head_start,i(mom_id) fe
 xtreg somecoll head_start,i(mom_id) fe
 xtreg repeat head_start,i(mom_id) fe
+xtreg fphealth head_start,i(mom_id) fe
 
 *Question 7
 gen race = 0
