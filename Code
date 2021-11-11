@@ -30,3 +30,8 @@ xtreg comp_score_7to10stand head_start,i(mom_id) fe
 xtreg comp_score_11to14stand head_start,i(mom_id) fe
 
 *Question 6
+
+
+xtreg hsgrad head_start,i(mom_id) fe
+xtreg somecoll head_start,i(mom_id) fe
+xtreg repeat head_start,i(mom_id) fe
