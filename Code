@@ -16,4 +16,17 @@ xtreg comp_score_5to6 head_start,i(mom_id) re
 
 *Question 4
 
+xtreg comp_score_5to6 head_start male firstborn,i(mom_id) fe
+
 xtreg comp_score_5to6 head_start,i(mom_id) fe
+
+*Question 5
+
+gen comp_score_7to10stand = comp_score_7to10/0.4233742
+gen comp_score_11to14stand = comp_score_7to10/0.4621538
+
+
+xtreg comp_score_7to10stand head_start,i(mom_id) fe
+xtreg comp_score_11to14stand head_start,i(mom_id) fe
+
+*Question 6
