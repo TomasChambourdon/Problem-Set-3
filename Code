@@ -46,3 +46,14 @@ xtreg comp_score_7to10stand head_start,i(male) fe
 
 xtreg comp_score_11to14stand head_start,i(race) fe
 xtreg comp_score_11to14stand head_start,i(male) fe
+
+NEW CODE FOR Q7:
+xtreg hsgrad head_start, i(race) fe
+xtreg somecoll head_start, i(race) fe
+xtreg repeat head_start, i(race) fe
+xtreg fphealth head_start, i(race) fe
+
+xtreg hsgrad head_start, i(male) fe
+xtreg somecoll head_start, i(male) fe
+xtreg repeat head_start, i(male) fe
+xtreg fphealth head_start, i(male) fe
